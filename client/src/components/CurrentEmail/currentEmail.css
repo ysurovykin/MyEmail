@@ -1,0 +1,233 @@
+#content-wrapper__btnControl {
+    display: none;
+}
+
+#content-wrapper__btnControl:checked+label>.content-wrapper__cover {
+    margin-top: 20px;
+    height: 0px;
+    opacity: 0;
+    font-size: 0;
+}
+
+.content-wrapper__cover {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    border-radius: 20px;
+    width: 520px;
+    height: 510px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: bold;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.content-wrapper__cover.winter {
+    background-color: #A2B9ED;
+}
+
+.content-wrapper__cover.spring {
+    background-color: #69AB3D;
+}
+
+.content-wrapper__cover.summer {
+    background-color: #DDBEA9;
+}
+
+.content-wrapper__cover.autumn {
+    background-color: #F8BC9A;
+}
+
+.reply-mail-window {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    width: 500px;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.reply-mail-window.winter {
+    background-color: #A2B9ED;
+}
+
+.reply-mail-window.spring {
+    background-color: #69AB3D;
+}
+
+.reply-mail-window.summer {
+    background-color: #DDBEA9;
+}
+
+.reply-mail-window.autumn {
+    background-color: #F8BC9A;
+}
+
+
+.reply-mail-window h2 {
+    text-align: left;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.reply-mail-window button {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin: 20px 0 15px 0;
+    padding: 10px 30px 10px 30px;
+    font-size: 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+    transition: 0.4s ease-in-out;
+}
+
+.reply-mail-window.winter textarea{
+    background-color: #AEEDE2;
+}
+
+.reply-mail-window.spring textarea{
+    background-color: #E9EBED;
+}
+
+.reply-mail-window.summer textarea{
+    background-color: #FFE8D6;
+}
+
+.reply-mail-window.autumn textarea{
+    background-color: #F7E6CA;
+}
+
+
+.write-mail-buttons.winter button:hover{
+    background-color: #9A9CE9;
+}
+
+.write-mail-buttons.spring button:hover{
+    background-color: #295D09;
+}
+
+.write-mail-buttons.summer button:hover{
+    background-color: #D0A389;
+}
+
+.write-mail-buttons.autumn button:hover{
+    background-color: #FE8C8C;
+}
+
+
+.reply-mail-div {
+    display: flex;
+}
+
+.email-info {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    padding: 10px 30px 10px 30px;
+    width: 800px;
+    height: 490px;
+    border-radius: 20px;
+    text-align: left;
+    justify-content: center;
+}
+
+.email-info.winter {
+    background-color: #A2B9ED;
+}
+
+.email-info.spring {
+    background-color: #69AB3D;
+}
+
+.email-info.summer {
+    background-color: #DDBEA9;
+}
+
+.email-info.autumn {
+    background-color: #F8BC9A;
+}
+
+.email-info span {
+    color: white;
+}
+
+.email-info h1 {
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.email-info h2 {
+    margin-bottom: 0;
+    font-size: 27px;
+}
+
+.email-info h3 {
+    margin: 80px 0px 10px 0px;
+    font-size: 30px;
+}
+
+.email-info textarea {
+    font-size: 20px;
+    width: 780px;
+    height: 150px;
+}
+
+.email-info.winter textarea{
+    background-color: #AEEDE2;
+}
+
+.email-info.spring textarea{
+    background-color: #E9EBED;
+}
+
+.email-info.summer textarea{
+    background-color: #FFE8D6;
+}
+
+.email-info.autumn textarea{
+    background-color: #F7E6CA;
+}
+
+.email-info__date {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.star-wrapper {
+    z-index: 0;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.4s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.star-wrapper:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.bin-wrapper {
+    z-index: 0;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.4s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.bin-wrapper:hover>img {
+    content: url('../../../public/img/binOpen.png');
+}

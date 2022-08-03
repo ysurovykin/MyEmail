@@ -1,0 +1,25 @@
+.loading-wrapper {
+    background-color: aliceblue;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading-wrapper__loader {
+    width: 128px;
+    height: 128px;
+    background: url("../../../public/img/email128x128.png");
+    animation: loaderRotate 1.5s infinite linear;
+}
+
+@keyframes loaderRotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

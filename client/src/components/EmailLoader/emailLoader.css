@@ -1,0 +1,21 @@
+.email-loader-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.email-loader-wrapper__loader{
+    width: 64px;
+    height: 64px;
+    background: url("../../../public/img/email.png");
+    animation: loaderRotate 1.5s infinite linear;
+}
+@keyframes loaderRotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

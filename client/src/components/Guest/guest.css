@@ -1,0 +1,198 @@
+.guest-wrapper {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(75, 75, 75, 0.882);
+}
+
+.scrolling-image-container {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.scrolling-image {
+    background-image: url("/public/img/email.png");
+    height: 750px;
+    animation: 90s linear infinite slide;
+}
+
+.menu-wrapper {
+    
+  font-family: 'Rampart One', cursive;
+    position: absolute;
+    left: 37%;
+    top: 21%;
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    background: radial-gradient(rgb(221, 170, 221) 0%, rgb(221, 170, 221) 50%, rgb(203, 150, 203) 70%);
+    text-align: center;
+    border: 1px solid black;
+}
+
+.login-form-wrapper {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 21%;
+    border-radius: 30px;
+    background: linear-gradient(to right, rgb(221, 170, 221) 10%, rgb(185, 130, 185) 30%);
+    transition: 0.3s ease-in-out;
+
+}
+
+.log-sign-menu {
+    line-height: 400px;
+}
+
+.log-sign-menu h1 {
+    margin: 0;
+    font-size: 60px;
+}
+
+.login-arrow {
+    
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    background: linear-gradient(rgb(149, 89, 149), rgb(167, 110, 167), rgb(185, 130, 185), rgb(203, 150, 203), rgb(221, 170, 221));
+    height: 50px;
+    width: 150px;
+    border-radius: 20px 20px 0 0;
+    top: 40%;
+    left: -26%;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    transform: rotate(270deg);
+    cursor: pointer;
+}
+
+.login-form {
+    
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    line-height: 15px;
+    margin: 60px 0 0 20px;
+}
+
+.login-form input {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.login-btn {
+    
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    left: 55px;
+    bottom: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    transition: 0.4s ease-in-out;
+    background-color: rgb(255, 255, 255);
+}
+
+.login-btn:hover {
+    background-color: rgb(119, 216, 127);
+}
+
+.login-btn:disabled:hover {
+    background-color: rgb(216, 119, 119);
+}
+
+.signup-form-wrapper {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 21%;
+    border-radius: 30px;
+    background: linear-gradient(to left, rgb(221, 170, 221) 10%, rgb(185, 130, 185) 30%);
+    transition: 0.3s ease-in-out;
+}
+
+.signup-arrow {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    z-index: 0;
+    background: linear-gradient(rgb(149, 89, 149), rgb(167, 110, 167), rgb(185, 130, 185), rgb(203, 150, 203), rgb(221, 170, 221));
+    height: 50px;
+    width: 150px;
+    border-radius: 20px 20px 0 0;
+    top: 40%;
+    right: -26%;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
+.signup-form {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    line-height: 15px;
+    margin: 20px 20px 0 0;
+}
+
+.signup-form input {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.signup-btn {
+    
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    right: 32px;
+    bottom: -75px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    transition: 0.4s ease-in-out;
+    background-color: rgb(255, 255, 255);
+}
+
+.signup-btn:hover {
+    background-color: rgb(119, 216, 127);
+}
+
+.signup-btn:disabled:hover {
+    background-color: rgb(216, 119, 119);
+}
+
+@keyframes slide {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: -4224px 4224px;
+    }
+}
+
+.error {
+    color: red;
+    width: fit-content;
+    position: relative;
+}
+
+.incorrect-log {
+    color: red;
+    font-size: 20px;
+    position: absolute;
+    left: 5%;
+    margin-top: 40px;
+}

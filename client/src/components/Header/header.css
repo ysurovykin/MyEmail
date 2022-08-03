@@ -1,0 +1,313 @@
+input {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px 0 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.header-left p {
+  margin: 0;
+  font-family: 'Rampart One', cursive;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.header-right ul {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-between;
+  min-width: 200px;
+}
+
+.header-midl {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 700px;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 10px 25px 10px 25px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.header-midl.winter {
+  background-color: #CDEDE6;
+}
+
+.header-midl.spring {
+  background-color: #E9EBED;
+}
+
+.header-midl.summer {
+  background-color: #FFE8D6;
+}
+
+.header-midl.autumn {
+  background-color: #F7E6CA;
+}
+
+.header-midl input {
+  font-size: 20px;
+  outline: none;
+  border: 0;
+  width: 95%;
+}
+
+.header-midl.winter input {
+  background-color: #CDEDE6;
+}
+
+.header-midl.spring input {
+  background-color: #E9EBED;
+}
+
+.header-midl.summer input {
+  background-color: #FFE8D6;
+}
+
+.header-midl.autumn input {
+  background-color: #F7E6CA;
+}
+
+.img-wrapper {
+  z-index: 0;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: 0.4s ease-in-out;
+}
+
+.img-wrapper:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+
+.setting-window {
+  padding: 10px;
+  top: 95px;
+  right: 60px;
+  border-radius: 20px;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  position: absolute;
+}
+
+.setting-window.winter {
+  background-color: #A2B9ED;
+}
+
+.setting-window.spring {
+  background-color: #69AB3D;
+}
+
+.setting-window.summer {
+  background-color: #DDBEA9;
+}
+
+.setting-window.autumn {
+  background-color: #F8BC9A;
+}
+
+.setting-window button {
+  padding: 30px;
+}
+
+.account-window {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  top: 95px;
+  right: 50px;
+  width: 230px;
+  border-radius: 20px;
+  text-align: center;
+  position: absolute;
+}
+
+.account-window.winter {
+  background-color: #A2B9ED;
+}
+
+.account-window.spring {
+  background-color: #69AB3D;
+}
+
+.account-window.summer {
+  background-color: #DDBEA9;
+}
+
+.account-window.autumn {
+  background-color: #F8BC9A;
+}
+
+.write-mail-window {
+  font-family: 'Lato', sans-serif;
+  padding: 10px;
+  top: 95px;
+  right: 50px;
+  width: 500px;
+  border-radius: 20px;
+  text-align: center;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+
+.write-mail-window.winter {
+  background-color: #A2B9ED;
+}
+
+.write-mail-window.spring {
+  background-color: #69AB3D;
+}
+
+.write-mail-window.summer {
+  background-color: #DDBEA9;
+}
+
+.write-mail-window.autumn {
+  background-color: #F8BC9A;
+}
+
+.write-mail-window h2 {
+  text-align: left;
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+textarea {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  resize: none;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.write-mail-window button {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  margin: 20px 0 15px 0;
+  padding: 10px 30px 10px 30px;
+  font-size: 30px;
+  border-radius: 20px;
+  border: 2px solid black;
+  transition: 0.4s ease-in-out;
+}
+
+.write-mail-window.winter button:hover {
+  background-color: #9A9CE9;
+}
+
+.write-mail-window.spring button:hover {
+  background-color: #295D09;
+}
+
+.write-mail-window.summer button:hover {
+  background-color: #D0A389;
+}
+
+.write-mail-window.autumn button:hover {
+  background-color: #FE8C8C;
+}
+
+.write-mail-buttons {
+  margin-left: 75px;
+  text-align: center;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.personal-info {
+  padding: 10px 20px 0 20px;
+  border-bottom: 1px solid black;
+}
+
+.personal-info h1 {
+  max-width: 180px;
+}
+
+.exit-btn {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  margin: 20px 0 15px 0;
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 2px solid black;
+  transition: 0.4s ease-in-out;
+}
+
+.account-window.winter button:hover {
+  background-color: #9A9CE9;
+}
+
+.account-window.spring button:hover {
+  background-color: #295D09;
+}
+
+.account-window.summer button:hover {
+  background-color: #D0A389;
+}
+
+.account-window.autumn button:hover {
+  background-color: #FE8C8C;
+}
+
+.header__sender-info {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.header-back-btn {   
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  margin: 20px 0 15px 0;
+  padding: 10px 20px 10px 20px;
+  font-size: 30px;
+  border-radius: 25px;
+  border: 2px solid black;
+  transition: 0.4s ease-in-out;
+}
+
+.header-back-btn.winter:hover {
+  background-color: #9A9CE9;
+}
+
+.header-back-btn.spring:hover {
+  background-color: #295D09;
+}
+
+.header-back-btn.summer:hover {
+  background-color: #D0A389;
+}
+
+.header-back-btn.autumn:hover {
+  background-color: #FE8C8C;
+}
+
+.theme-cicrcle-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding: 0px 15px 10px 15px;
+}

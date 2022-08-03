@@ -1,0 +1,22 @@
+
+.theme-circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+  
+  #winter-theme{
+    background: linear-gradient(to right,#9A9CE9, #A2B9ED, #A3DCEF, #CDEDE6 );
+  }
+  
+  #spring-theme{
+    background: linear-gradient(to right,#295D09, #69AB3D, #AED36C, #E9EBED );
+  }
+ 
+  #summer-theme{
+    background: linear-gradient(to right,#D0A389, #DDBEA9, #EED3C0, #FFE8D6 );
+  }  
+  
+  #autumn-theme{
+    background: linear-gradient(to right,#FE8C8C, #F8BC9A, #F8D49A, #F7E6CA );
+  }

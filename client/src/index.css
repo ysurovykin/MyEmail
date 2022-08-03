@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: aliceblue;
+  overflow: hidden;
+}
+
+.app-wrapper {
+  max-width: 1500px;
+  min-height: 93vh;
+  margin: 20px auto;
+  border-radius: 30px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.app-wrapper.winter {
+  background-color: #A3DCEF;
+}
+
+.app-wrapper.spring {
+  background-color: #AED36C;
+}
+
+.app-wrapper.summer {
+  background-color: #EED3C0;
+}
+
+.app-wrapper.autumn {
+  background-color: #F8D49A;
+}
+
+.app-wrapper__email-loader {
+  height: 93vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

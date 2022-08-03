@@ -1,0 +1,79 @@
+.email {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    padding: 0 20px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.email.unread {
+    border-bottom: 1px solid black;
+    padding: 0 20px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.email.unread.outbox:hover>img {
+    content: url('../../../public/img/bin.png');
+}
+
+.email.outbox:hover>button img {
+    content: url('../../../public/img/bin.png');
+}
+
+.email:hover {
+    box-shadow: 5px 10px 7px rgba(0, 0, 0, 0.5);
+}
+
+.email h1 {
+    font-size: 25px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.email span {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 20px 0 0;
+}
+
+.email h2 {
+    font-size: 20px;
+    white-space: nowrap;
+    font-weight: 300;
+    width: 73%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.email p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.img-wrapper {
+    z-index: 0;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.4s ease-in-out;
+}
+
+.img-wrapper:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
